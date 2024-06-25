@@ -1,0 +1,1193 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A10E133EBD9621678BE3417 /* Pods_ConciertosChile_ConciertosChileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB9082521A28739F2392FDA /* Pods_ConciertosChile_ConciertosChileUITests.framework */; };
+		939DFE097209431D2A0E7BEB /* Pods_ConciertosChileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 903B5FC3B4061773E1416C84 /* Pods_ConciertosChileTests.framework */; };
+		CA86F5F26EBD85B9B4C56CBC /* Pods_ConciertosChile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CE0C4F8532F0158B79C9A7 /* Pods_ConciertosChile.framework */; };
+		FE1E37CE2B5F4C140032B375 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E37CD2B5F4C140032B375 /* DetailView.swift */; };
+		FE1E37D12B60225A0032B375 /* ModelPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E37D02B60225A0032B375 /* ModelPreview.swift */; };
+		FE1E37D32B6022820032B375 /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E37D22B6022820032B375 /* PreviewContainer.swift */; };
+		FE1E37D52B61B7240032B375 /* EventFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E37D42B61B7240032B375 /* EventFavorite.swift */; };
+		FE1E37D72B61BDB10032B375 /* DetailFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E37D62B61BDB10032B375 /* DetailFavoriteView.swift */; };
+		FE1E37D92B61BDDC0032B375 /* SummaryFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E37D82B61BDDC0032B375 /* SummaryFavoriteView.swift */; };
+		FE4357B32B5DFF6600A7832C /* ConciertosChileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4357B22B5DFF6600A7832C /* ConciertosChileApp.swift */; };
+		FE4357B52B5DFF6600A7832C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4357B42B5DFF6600A7832C /* ContentView.swift */; };
+		FE4357B72B5DFF6800A7832C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE4357B62B5DFF6800A7832C /* Assets.xcassets */; };
+		FE4357BA2B5DFF6800A7832C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE4357B92B5DFF6800A7832C /* Preview Assets.xcassets */; };
+		FE4357C42B5DFF6800A7832C /* ConciertosChileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4357C32B5DFF6800A7832C /* ConciertosChileTests.swift */; };
+		FE4357CE2B5DFF6800A7832C /* ConciertosChileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4357CD2B5DFF6800A7832C /* ConciertosChileUITests.swift */; };
+		FE4357D02B5DFF6800A7832C /* ConciertosChileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4357CF2B5DFF6800A7832C /* ConciertosChileUITestsLaunchTests.swift */; };
+		FE4357DE2B5E070C00A7832C /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4357DD2B5E070C00A7832C /* EventModel.swift */; };
+		FE4357E12B5EAEAB00A7832C /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4357E02B5EAEAB00A7832C /* EventsView.swift */; };
+		FE4357E42B5EAF0100A7832C /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4357E32B5EAF0100A7832C /* FavouriteView.swift */; };
+		FE4357E72B5EC04B00A7832C /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4357E62B5EC04B00A7832C /* SummaryView.swift */; };
+		FEFF76762B68344000D1100A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76752B68344000D1100A /* HomeViewModel.swift */; };
+		FEFF76782B68349400D1100A /* HomeViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76772B68349400D1100A /* HomeViewState.swift */; };
+		FEFF767B2B68350900D1100A /* FetchEventListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF767A2B68350900D1100A /* FetchEventListUseCase.swift */; };
+		FEFF767E2B68353100D1100A /* EventRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF767D2B68353100D1100A /* EventRepository.swift */; };
+		FEFF76822B6835AE00D1100A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76812B6835AE00D1100A /* ViewModel.swift */; };
+		FEFF76862B683A9C00D1100A /* EventRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76852B683A9C00D1100A /* EventRepositoryImpl.swift */; };
+		FEFF76892B683B0000D1100A /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76882B683B0000D1100A /* NetworkMonitor.swift */; };
+		FEFF768C2B683BB200D1100A /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF768B2B683BB200D1100A /* NetworkError.swift */; };
+		FEFF768F2B68411C00D1100A /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF768E2B68411C00D1100A /* ErrorView.swift */; };
+		FEFF76922B6841C300D1100A /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76912B6841C300D1100A /* ViewModifiers.swift */; };
+		FEFF76942B69327000D1100A /* MainCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76932B69327000D1100A /* MainCoordinatorView.swift */; };
+		FEFF76972B6933C900D1100A /* ScreenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76962B6933C900D1100A /* ScreenFactory.swift */; };
+		FEFF769A2B69340A00D1100A /* AppFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76992B69340A00D1100A /* AppFactory.swift */; };
+		FEFF769C2B6934B900D1100A /* ScreenFactoryProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF769B2B6934B900D1100A /* ScreenFactoryProtocols.swift */; };
+		FEFF769E2B6934D800D1100A /* CoordinatorFactoryProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF769D2B6934D800D1100A /* CoordinatorFactoryProtocols.swift */; };
+		FEFF76A22B69362C00D1100A /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76A12B69362C00D1100A /* NewsView.swift */; };
+		FEFF76A52B69363800D1100A /* LiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76A42B69363800D1100A /* LiveView.swift */; };
+		FEFF76AA2B6937E200D1100A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76A92B6937E200D1100A /* AppCoordinator.swift */; };
+		FEFF76AC2B69380A00D1100A /* AppCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76AB2B69380A00D1100A /* AppCoordinatorView.swift */; };
+		FEFF76AF2B694D8700D1100A /* EventCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76AE2B694D8700D1100A /* EventCoordinator.swift */; };
+		FEFF76B12B694DA400D1100A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76B02B694DA400D1100A /* Coordinator.swift */; };
+		FEFF76B32B694DB500D1100A /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76B22B694DB500D1100A /* Routable.swift */; };
+		FEFF76B52B69702300D1100A /* EventCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76B42B69702300D1100A /* EventCoordinatorProtocol.swift */; };
+		FEFF76B72B69732500D1100A /* FavouriteCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76B62B69732500D1100A /* FavouriteCoordinator.swift */; };
+		FEFF76B92B69732F00D1100A /* FavouriteCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76B82B69732F00D1100A /* FavouriteCoordinatorProtocol.swift */; };
+		FEFF76BB2B69737100D1100A /* NewsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76BA2B69737100D1100A /* NewsCoordinator.swift */; };
+		FEFF76BD2B69738700D1100A /* NewsCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76BC2B69738700D1100A /* NewsCoordinatorProtocol.swift */; };
+		FEFF76BF2B6974B000D1100A /* LiveCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76BE2B6974B000D1100A /* LiveCoordinator.swift */; };
+		FEFF76C12B6974E600D1100A /* LiveCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76C02B6974E600D1100A /* LiveCoordinatorProtocol.swift */; };
+		FEFF76C32B6975A600D1100A /* EventCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76C22B6975A600D1100A /* EventCoordinatorView.swift */; };
+		FEFF76C72B69773300D1100A /* FavouriteCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76C62B69773300D1100A /* FavouriteCoordinatorView.swift */; };
+		FEFF76CA2B69777500D1100A /* NewsCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76C92B69777500D1100A /* NewsCoordinatorView.swift */; };
+		FEFF76CD2B6977FF00D1100A /* LiveCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76CC2B6977FF00D1100A /* LiveCoordinatorView.swift */; };
+		FEFF76D02B698BC600D1100A /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76CF2B698BC600D1100A /* NewsViewModel.swift */; };
+		FEFF76D22B698BDE00D1100A /* NewsViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF76D12B698BDE00D1100A /* NewsViewState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE4357C02B5DFF6800A7832C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE4357A72B5DFF6600A7832C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE4357AE2B5DFF6600A7832C;
+			remoteInfo = ConciertosChile;
+		};
+		FE4357CA2B5DFF6800A7832C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE4357A72B5DFF6600A7832C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE4357AE2B5DFF6600A7832C;
+			remoteInfo = ConciertosChile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CE0C4F8532F0158B79C9A7 /* Pods_ConciertosChile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConciertosChile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FB9082521A28739F2392FDA /* Pods_ConciertosChile_ConciertosChileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConciertosChile_ConciertosChileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1427B7B218B1EFF5497A2FA8 /* Pods-ConciertosChile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConciertosChile.release.xcconfig"; path = "Target Support Files/Pods-ConciertosChile/Pods-ConciertosChile.release.xcconfig"; sourceTree = "<group>"; };
+		258C21D64F175626F74B4CE8 /* Pods-ConciertosChileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConciertosChileTests.release.xcconfig"; path = "Target Support Files/Pods-ConciertosChileTests/Pods-ConciertosChileTests.release.xcconfig"; sourceTree = "<group>"; };
+		7BCA90A3AD9F1A9786C5B4CF /* Pods-ConciertosChile-ConciertosChileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConciertosChile-ConciertosChileUITests.release.xcconfig"; path = "Target Support Files/Pods-ConciertosChile-ConciertosChileUITests/Pods-ConciertosChile-ConciertosChileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		903B5FC3B4061773E1416C84 /* Pods_ConciertosChileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConciertosChileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93673FDFBA216F6C5A6F89FE /* Pods-ConciertosChile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConciertosChile.debug.xcconfig"; path = "Target Support Files/Pods-ConciertosChile/Pods-ConciertosChile.debug.xcconfig"; sourceTree = "<group>"; };
+		BE54F047F6487EDB6B7649A2 /* Pods-ConciertosChileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConciertosChileTests.debug.xcconfig"; path = "Target Support Files/Pods-ConciertosChileTests/Pods-ConciertosChileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC48A345FDB157D9C22815FE /* Pods-ConciertosChile-ConciertosChileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConciertosChile-ConciertosChileUITests.debug.xcconfig"; path = "Target Support Files/Pods-ConciertosChile-ConciertosChileUITests/Pods-ConciertosChile-ConciertosChileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE1E37CB2B5EFFC70032B375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1E37CD2B5F4C140032B375 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FE1E37D02B60225A0032B375 /* ModelPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPreview.swift; sourceTree = "<group>"; };
+		FE1E37D22B6022820032B375 /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
+		FE1E37D42B61B7240032B375 /* EventFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFavorite.swift; sourceTree = "<group>"; };
+		FE1E37D62B61BDB10032B375 /* DetailFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFavoriteView.swift; sourceTree = "<group>"; };
+		FE1E37D82B61BDDC0032B375 /* SummaryFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryFavoriteView.swift; sourceTree = "<group>"; };
+		FE4357AF2B5DFF6600A7832C /* ConciertosChile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConciertosChile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4357B22B5DFF6600A7832C /* ConciertosChileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConciertosChileApp.swift; sourceTree = "<group>"; };
+		FE4357B42B5DFF6600A7832C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE4357B62B5DFF6800A7832C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE4357B92B5DFF6800A7832C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE4357BF2B5DFF6800A7832C /* ConciertosChileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConciertosChileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4357C32B5DFF6800A7832C /* ConciertosChileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConciertosChileTests.swift; sourceTree = "<group>"; };
+		FE4357C92B5DFF6800A7832C /* ConciertosChileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConciertosChileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4357CD2B5DFF6800A7832C /* ConciertosChileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConciertosChileUITests.swift; sourceTree = "<group>"; };
+		FE4357CF2B5DFF6800A7832C /* ConciertosChileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConciertosChileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE4357DD2B5E070C00A7832C /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		FE4357E02B5EAEAB00A7832C /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		FE4357E32B5EAF0100A7832C /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
+		FE4357E62B5EC04B00A7832C /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		FEFF76752B68344000D1100A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FEFF76772B68349400D1100A /* HomeViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewState.swift; sourceTree = "<group>"; };
+		FEFF767A2B68350900D1100A /* FetchEventListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchEventListUseCase.swift; sourceTree = "<group>"; };
+		FEFF767D2B68353100D1100A /* EventRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRepository.swift; sourceTree = "<group>"; };
+		FEFF76812B6835AE00D1100A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FEFF76852B683A9C00D1100A /* EventRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRepositoryImpl.swift; sourceTree = "<group>"; };
+		FEFF76882B683B0000D1100A /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		FEFF768B2B683BB200D1100A /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		FEFF768E2B68411C00D1100A /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		FEFF76912B6841C300D1100A /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		FEFF76932B69327000D1100A /* MainCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorView.swift; sourceTree = "<group>"; };
+		FEFF76962B6933C900D1100A /* ScreenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenFactory.swift; sourceTree = "<group>"; };
+		FEFF76992B69340A00D1100A /* AppFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFactory.swift; sourceTree = "<group>"; };
+		FEFF769B2B6934B900D1100A /* ScreenFactoryProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenFactoryProtocols.swift; sourceTree = "<group>"; };
+		FEFF769D2B6934D800D1100A /* CoordinatorFactoryProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactoryProtocols.swift; sourceTree = "<group>"; };
+		FEFF76A12B69362C00D1100A /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		FEFF76A42B69363800D1100A /* LiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveView.swift; sourceTree = "<group>"; };
+		FEFF76A92B6937E200D1100A /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		FEFF76AB2B69380A00D1100A /* AppCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorView.swift; sourceTree = "<group>"; };
+		FEFF76AE2B694D8700D1100A /* EventCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCoordinator.swift; sourceTree = "<group>"; };
+		FEFF76B02B694DA400D1100A /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		FEFF76B22B694DB500D1100A /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		FEFF76B42B69702300D1100A /* EventCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		FEFF76B62B69732500D1100A /* FavouriteCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCoordinator.swift; sourceTree = "<group>"; };
+		FEFF76B82B69732F00D1100A /* FavouriteCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		FEFF76BA2B69737100D1100A /* NewsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCoordinator.swift; sourceTree = "<group>"; };
+		FEFF76BC2B69738700D1100A /* NewsCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		FEFF76BE2B6974B000D1100A /* LiveCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCoordinator.swift; sourceTree = "<group>"; };
+		FEFF76C02B6974E600D1100A /* LiveCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		FEFF76C22B6975A600D1100A /* EventCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCoordinatorView.swift; sourceTree = "<group>"; };
+		FEFF76C62B69773300D1100A /* FavouriteCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCoordinatorView.swift; sourceTree = "<group>"; };
+		FEFF76C92B69777500D1100A /* NewsCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCoordinatorView.swift; sourceTree = "<group>"; };
+		FEFF76CC2B6977FF00D1100A /* LiveCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCoordinatorView.swift; sourceTree = "<group>"; };
+		FEFF76CF2B698BC600D1100A /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		FEFF76D12B698BDE00D1100A /* NewsViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE4357AC2B5DFF6600A7832C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA86F5F26EBD85B9B4C56CBC /* Pods_ConciertosChile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4357BC2B5DFF6800A7832C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939DFE097209431D2A0E7BEB /* Pods_ConciertosChileTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4357C62B5DFF6800A7832C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A10E133EBD9621678BE3417 /* Pods_ConciertosChile_ConciertosChileUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		249E6B7287A532008A10101D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93673FDFBA216F6C5A6F89FE /* Pods-ConciertosChile.debug.xcconfig */,
+				1427B7B218B1EFF5497A2FA8 /* Pods-ConciertosChile.release.xcconfig */,
+				DC48A345FDB157D9C22815FE /* Pods-ConciertosChile-ConciertosChileUITests.debug.xcconfig */,
+				7BCA90A3AD9F1A9786C5B4CF /* Pods-ConciertosChile-ConciertosChileUITests.release.xcconfig */,
+				BE54F047F6487EDB6B7649A2 /* Pods-ConciertosChileTests.debug.xcconfig */,
+				258C21D64F175626F74B4CE8 /* Pods-ConciertosChileTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		57F55A269B0C6690A97DFAC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04CE0C4F8532F0158B79C9A7 /* Pods_ConciertosChile.framework */,
+				0FB9082521A28739F2392FDA /* Pods_ConciertosChile_ConciertosChileUITests.framework */,
+				903B5FC3B4061773E1416C84 /* Pods_ConciertosChileTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE1E37CC2B5F4C060032B375 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E37CD2B5F4C140032B375 /* DetailView.swift */,
+				FE1E37D62B61BDB10032B375 /* DetailFavoriteView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FE1E37CF2B6022480032B375 /* Preview helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E37D02B60225A0032B375 /* ModelPreview.swift */,
+				FE1E37D22B6022820032B375 /* PreviewContainer.swift */,
+			);
+			path = "Preview helpers";
+			sourceTree = "<group>";
+		};
+		FE4357A62B5DFF6600A7832C = {
+			isa = PBXGroup;
+			children = (
+				FE4357B12B5DFF6600A7832C /* ConciertosChile */,
+				FE4357C22B5DFF6800A7832C /* ConciertosChileTests */,
+				FE4357CC2B5DFF6800A7832C /* ConciertosChileUITests */,
+				FE4357B02B5DFF6600A7832C /* Products */,
+				249E6B7287A532008A10101D /* Pods */,
+				57F55A269B0C6690A97DFAC4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE4357B02B5DFF6600A7832C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE4357AF2B5DFF6600A7832C /* ConciertosChile.app */,
+				FE4357BF2B5DFF6800A7832C /* ConciertosChileTests.xctest */,
+				FE4357C92B5DFF6800A7832C /* ConciertosChileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE4357B12B5DFF6600A7832C /* ConciertosChile */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E37CB2B5EFFC70032B375 /* Info.plist */,
+				FE4357B62B5DFF6800A7832C /* Assets.xcassets */,
+				FEFF76842B683A6C00D1100A /* Data */,
+				FEFF76712B6833AC00D1100A /* Presentation */,
+				FEFF766E2B68336700D1100A /* Core */,
+				FEFF76702B68339700D1100A /* Domain */,
+				FEFF766C2B68334D00D1100A /* Application */,
+			);
+			path = ConciertosChile;
+			sourceTree = "<group>";
+		};
+		FE4357B82B5DFF6800A7832C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE4357B92B5DFF6800A7832C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE4357C22B5DFF6800A7832C /* ConciertosChileTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE4357C32B5DFF6800A7832C /* ConciertosChileTests.swift */,
+			);
+			path = ConciertosChileTests;
+			sourceTree = "<group>";
+		};
+		FE4357CC2B5DFF6800A7832C /* ConciertosChileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE4357CD2B5DFF6800A7832C /* ConciertosChileUITests.swift */,
+				FE4357CF2B5DFF6800A7832C /* ConciertosChileUITestsLaunchTests.swift */,
+			);
+			path = ConciertosChileUITests;
+			sourceTree = "<group>";
+		};
+		FE4357DC2B5E067A00A7832C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE4357DD2B5E070C00A7832C /* EventModel.swift */,
+				FE1E37D42B61B7240032B375 /* EventFavorite.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE4357DF2B5EAE9C00A7832C /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76742B68343700D1100A /* View */,
+				FEFF76732B68342E00D1100A /* ViewModel */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		FE4357E22B5EAEEB00A7832C /* Favourite */ = {
+			isa = PBXGroup;
+			children = (
+				FE4357E32B5EAF0100A7832C /* FavouriteView.swift */,
+			);
+			path = Favourite;
+			sourceTree = "<group>";
+		};
+		FE4357E52B5EC04400A7832C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FE4357E62B5EC04B00A7832C /* SummaryView.swift */,
+				FE1E37D82B61BDDC0032B375 /* SummaryFavoriteView.swift */,
+				FEFF768E2B68411C00D1100A /* ErrorView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FEFF766C2B68334D00D1100A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76952B6933B300D1100A /* DependencyInjection */,
+				FE4357B22B5DFF6600A7832C /* ConciertosChileApp.swift */,
+				FE4357B42B5DFF6600A7832C /* ContentView.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FEFF766E2B68336700D1100A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF766F2B68337F00D1100A /* Common */,
+				FE1E37CF2B6022480032B375 /* Preview helpers */,
+				FE4357B82B5DFF6800A7832C /* Preview Content */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FEFF766F2B68337F00D1100A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76902B6841BD00D1100A /* ViewModifiers */,
+				FE4357E52B5EC04400A7832C /* Components */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FEFF76702B68339700D1100A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF767C2B68352500D1100A /* Repositories */,
+				FEFF76792B68350200D1100A /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FEFF76712B6833AC00D1100A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF767F2B6835A000D1100A /* Common */,
+				FEFF76722B6833B200D1100A /* Scenes */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FEFF76722B6833B200D1100A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76A82B6937D100D1100A /* Coordinator */,
+				FEFF76A32B69363000D1100A /* Live */,
+				FEFF76A02B69361D00D1100A /* News */,
+				FE4357E22B5EAEEB00A7832C /* Favourite */,
+				FE4357DF2B5EAE9C00A7832C /* Events */,
+				FE1E37CC2B5F4C060032B375 /* Detail */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FEFF76732B68342E00D1100A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76752B68344000D1100A /* HomeViewModel.swift */,
+				FEFF76772B68349400D1100A /* HomeViewState.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FEFF76742B68343700D1100A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE4357E02B5EAEAB00A7832C /* EventsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FEFF76792B68350200D1100A /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF767A2B68350900D1100A /* FetchEventListUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		FEFF767C2B68352500D1100A /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF767D2B68353100D1100A /* EventRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		FEFF767F2B6835A000D1100A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76802B6835A700D1100A /* Protocols */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FEFF76802B6835A700D1100A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76812B6835AE00D1100A /* ViewModel.swift */,
+				FEFF76B02B694DA400D1100A /* Coordinator.swift */,
+				FEFF76B22B694DB500D1100A /* Routable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FEFF76832B683A5700D1100A /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76852B683A9C00D1100A /* EventRepositoryImpl.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		FEFF76842B683A6C00D1100A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF768A2B683BA500D1100A /* Networking */,
+				FEFF76872B683AF800D1100A /* Utilities */,
+				FE4357DC2B5E067A00A7832C /* Model */,
+				FEFF76832B683A5700D1100A /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FEFF76872B683AF800D1100A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76882B683B0000D1100A /* NetworkMonitor.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FEFF768A2B683BA500D1100A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF768B2B683BB200D1100A /* NetworkError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FEFF76902B6841BD00D1100A /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76912B6841C300D1100A /* ViewModifiers.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		FEFF76952B6933B300D1100A /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76982B6933FF00D1100A /* ScreenFactory */,
+				FEFF76992B69340A00D1100A /* AppFactory.swift */,
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		FEFF76982B6933FF00D1100A /* ScreenFactory */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76962B6933C900D1100A /* ScreenFactory.swift */,
+				FEFF769B2B6934B900D1100A /* ScreenFactoryProtocols.swift */,
+				FEFF769D2B6934D800D1100A /* CoordinatorFactoryProtocols.swift */,
+			);
+			path = ScreenFactory;
+			sourceTree = "<group>";
+		};
+		FEFF76A02B69361D00D1100A /* News */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76CE2B698BBC00D1100A /* ViewModel */,
+				FEFF76A12B69362C00D1100A /* NewsView.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		FEFF76A32B69363000D1100A /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76A42B69363800D1100A /* LiveView.swift */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		FEFF76A82B6937D100D1100A /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76CB2B6977F600D1100A /* Live */,
+				FEFF76C82B69776A00D1100A /* News */,
+				FEFF76C52B69772200D1100A /* Favourite */,
+				FEFF76C42B6975AC00D1100A /* Event */,
+				FEFF76932B69327000D1100A /* MainCoordinatorView.swift */,
+				FEFF76A92B6937E200D1100A /* AppCoordinator.swift */,
+				FEFF76AB2B69380A00D1100A /* AppCoordinatorView.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		FEFF76C42B6975AC00D1100A /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76C22B6975A600D1100A /* EventCoordinatorView.swift */,
+				FEFF76AE2B694D8700D1100A /* EventCoordinator.swift */,
+				FEFF76B42B69702300D1100A /* EventCoordinatorProtocol.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		FEFF76C52B69772200D1100A /* Favourite */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76B62B69732500D1100A /* FavouriteCoordinator.swift */,
+				FEFF76B82B69732F00D1100A /* FavouriteCoordinatorProtocol.swift */,
+				FEFF76C62B69773300D1100A /* FavouriteCoordinatorView.swift */,
+			);
+			path = Favourite;
+			sourceTree = "<group>";
+		};
+		FEFF76C82B69776A00D1100A /* News */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76BA2B69737100D1100A /* NewsCoordinator.swift */,
+				FEFF76BC2B69738700D1100A /* NewsCoordinatorProtocol.swift */,
+				FEFF76C92B69777500D1100A /* NewsCoordinatorView.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		FEFF76CB2B6977F600D1100A /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76BE2B6974B000D1100A /* LiveCoordinator.swift */,
+				FEFF76C02B6974E600D1100A /* LiveCoordinatorProtocol.swift */,
+				FEFF76CC2B6977FF00D1100A /* LiveCoordinatorView.swift */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		FEFF76CE2B698BBC00D1100A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FEFF76CF2B698BC600D1100A /* NewsViewModel.swift */,
+				FEFF76D12B698BDE00D1100A /* NewsViewState.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE4357AE2B5DFF6600A7832C /* ConciertosChile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE4357D32B5DFF6800A7832C /* Build configuration list for PBXNativeTarget "ConciertosChile" */;
+			buildPhases = (
+				A7A63F4E3F51257D397E758D /* [CP] Check Pods Manifest.lock */,
+				FE4357AB2B5DFF6600A7832C /* Sources */,
+				FE4357AC2B5DFF6600A7832C /* Frameworks */,
+				FE4357AD2B5DFF6600A7832C /* Resources */,
+				3A4862A14842D179A387F1D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConciertosChile;
+			productName = ConciertosChile;
+			productReference = FE4357AF2B5DFF6600A7832C /* ConciertosChile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE4357BE2B5DFF6800A7832C /* ConciertosChileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE4357D62B5DFF6800A7832C /* Build configuration list for PBXNativeTarget "ConciertosChileTests" */;
+			buildPhases = (
+				546C475AE5975BB1832FF904 /* [CP] Check Pods Manifest.lock */,
+				FE4357BB2B5DFF6800A7832C /* Sources */,
+				FE4357BC2B5DFF6800A7832C /* Frameworks */,
+				FE4357BD2B5DFF6800A7832C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE4357C12B5DFF6800A7832C /* PBXTargetDependency */,
+			);
+			name = ConciertosChileTests;
+			productName = ConciertosChileTests;
+			productReference = FE4357BF2B5DFF6800A7832C /* ConciertosChileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE4357C82B5DFF6800A7832C /* ConciertosChileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE4357D92B5DFF6800A7832C /* Build configuration list for PBXNativeTarget "ConciertosChileUITests" */;
+			buildPhases = (
+				C22C6C6B144CB35322EF3A29 /* [CP] Check Pods Manifest.lock */,
+				FE4357C52B5DFF6800A7832C /* Sources */,
+				FE4357C62B5DFF6800A7832C /* Frameworks */,
+				FE4357C72B5DFF6800A7832C /* Resources */,
+				11545890CB63D9658D7D073F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE4357CB2B5DFF6800A7832C /* PBXTargetDependency */,
+			);
+			name = ConciertosChileUITests;
+			productName = ConciertosChileUITests;
+			productReference = FE4357C92B5DFF6800A7832C /* ConciertosChileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE4357A72B5DFF6600A7832C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FE4357AE2B5DFF6600A7832C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FE4357BE2B5DFF6800A7832C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FE4357AE2B5DFF6600A7832C;
+					};
+					FE4357C82B5DFF6800A7832C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FE4357AE2B5DFF6600A7832C;
+					};
+				};
+			};
+			buildConfigurationList = FE4357AA2B5DFF6600A7832C /* Build configuration list for PBXProject "ConciertosChile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE4357A62B5DFF6600A7832C;
+			productRefGroup = FE4357B02B5DFF6600A7832C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE4357AE2B5DFF6600A7832C /* ConciertosChile */,
+				FE4357BE2B5DFF6800A7832C /* ConciertosChileTests */,
+				FE4357C82B5DFF6800A7832C /* ConciertosChileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE4357AD2B5DFF6600A7832C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4357BA2B5DFF6800A7832C /* Preview Assets.xcassets in Resources */,
+				FE4357B72B5DFF6800A7832C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4357BD2B5DFF6800A7832C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4357C72B5DFF6800A7832C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11545890CB63D9658D7D073F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConciertosChile-ConciertosChileUITests/Pods-ConciertosChile-ConciertosChileUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConciertosChile-ConciertosChileUITests/Pods-ConciertosChile-ConciertosChileUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConciertosChile-ConciertosChileUITests/Pods-ConciertosChile-ConciertosChileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A4862A14842D179A387F1D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConciertosChile/Pods-ConciertosChile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConciertosChile/Pods-ConciertosChile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConciertosChile/Pods-ConciertosChile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		546C475AE5975BB1832FF904 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConciertosChileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7A63F4E3F51257D397E758D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConciertosChile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C22C6C6B144CB35322EF3A29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConciertosChile-ConciertosChileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE4357AB2B5DFF6600A7832C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFF76D22B698BDE00D1100A /* NewsViewState.swift in Sources */,
+				FE1E37D32B6022820032B375 /* PreviewContainer.swift in Sources */,
+				FEFF76762B68344000D1100A /* HomeViewModel.swift in Sources */,
+				FEFF767E2B68353100D1100A /* EventRepository.swift in Sources */,
+				FEFF76AA2B6937E200D1100A /* AppCoordinator.swift in Sources */,
+				FEFF76C72B69773300D1100A /* FavouriteCoordinatorView.swift in Sources */,
+				FE1E37D12B60225A0032B375 /* ModelPreview.swift in Sources */,
+				FEFF768F2B68411C00D1100A /* ErrorView.swift in Sources */,
+				FEFF76862B683A9C00D1100A /* EventRepositoryImpl.swift in Sources */,
+				FEFF76BB2B69737100D1100A /* NewsCoordinator.swift in Sources */,
+				FE4357B52B5DFF6600A7832C /* ContentView.swift in Sources */,
+				FEFF769E2B6934D800D1100A /* CoordinatorFactoryProtocols.swift in Sources */,
+				FEFF76B92B69732F00D1100A /* FavouriteCoordinatorProtocol.swift in Sources */,
+				FEFF76B12B694DA400D1100A /* Coordinator.swift in Sources */,
+				FE1E37D72B61BDB10032B375 /* DetailFavoriteView.swift in Sources */,
+				FEFF76C12B6974E600D1100A /* LiveCoordinatorProtocol.swift in Sources */,
+				FEFF76D02B698BC600D1100A /* NewsViewModel.swift in Sources */,
+				FEFF76C32B6975A600D1100A /* EventCoordinatorView.swift in Sources */,
+				FEFF76822B6835AE00D1100A /* ViewModel.swift in Sources */,
+				FEFF76922B6841C300D1100A /* ViewModifiers.swift in Sources */,
+				FEFF76BF2B6974B000D1100A /* LiveCoordinator.swift in Sources */,
+				FE4357DE2B5E070C00A7832C /* EventModel.swift in Sources */,
+				FEFF768C2B683BB200D1100A /* NetworkError.swift in Sources */,
+				FEFF769C2B6934B900D1100A /* ScreenFactoryProtocols.swift in Sources */,
+				FEFF76782B68349400D1100A /* HomeViewState.swift in Sources */,
+				FE1E37D52B61B7240032B375 /* EventFavorite.swift in Sources */,
+				FEFF76972B6933C900D1100A /* ScreenFactory.swift in Sources */,
+				FEFF76AC2B69380A00D1100A /* AppCoordinatorView.swift in Sources */,
+				FEFF76B52B69702300D1100A /* EventCoordinatorProtocol.swift in Sources */,
+				FEFF76A22B69362C00D1100A /* NewsView.swift in Sources */,
+				FEFF76A52B69363800D1100A /* LiveView.swift in Sources */,
+				FEFF76CD2B6977FF00D1100A /* LiveCoordinatorView.swift in Sources */,
+				FE4357E42B5EAF0100A7832C /* FavouriteView.swift in Sources */,
+				FE1E37CE2B5F4C140032B375 /* DetailView.swift in Sources */,
+				FEFF76AF2B694D8700D1100A /* EventCoordinator.swift in Sources */,
+				FEFF767B2B68350900D1100A /* FetchEventListUseCase.swift in Sources */,
+				FE4357B32B5DFF6600A7832C /* ConciertosChileApp.swift in Sources */,
+				FEFF769A2B69340A00D1100A /* AppFactory.swift in Sources */,
+				FEFF76B32B694DB500D1100A /* Routable.swift in Sources */,
+				FEFF76942B69327000D1100A /* MainCoordinatorView.swift in Sources */,
+				FEFF76CA2B69777500D1100A /* NewsCoordinatorView.swift in Sources */,
+				FE1E37D92B61BDDC0032B375 /* SummaryFavoriteView.swift in Sources */,
+				FEFF76BD2B69738700D1100A /* NewsCoordinatorProtocol.swift in Sources */,
+				FEFF76892B683B0000D1100A /* NetworkMonitor.swift in Sources */,
+				FE4357E12B5EAEAB00A7832C /* EventsView.swift in Sources */,
+				FEFF76B72B69732500D1100A /* FavouriteCoordinator.swift in Sources */,
+				FE4357E72B5EC04B00A7832C /* SummaryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4357BB2B5DFF6800A7832C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4357C42B5DFF6800A7832C /* ConciertosChileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4357C52B5DFF6800A7832C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4357CE2B5DFF6800A7832C /* ConciertosChileUITests.swift in Sources */,
+				FE4357D02B5DFF6800A7832C /* ConciertosChileUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE4357C12B5DFF6800A7832C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE4357AE2B5DFF6600A7832C /* ConciertosChile */;
+			targetProxy = FE4357C02B5DFF6800A7832C /* PBXContainerItemProxy */;
+		};
+		FE4357CB2B5DFF6800A7832C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE4357AE2B5DFF6600A7832C /* ConciertosChile */;
+			targetProxy = FE4357CA2B5DFF6800A7832C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE4357D12B5DFF6800A7832C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE4357D22B5DFF6800A7832C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE4357D42B5DFF6800A7832C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93673FDFBA216F6C5A6F89FE /* Pods-ConciertosChile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "ConciertosChile/Core/Preview\\ Content";
+				DEVELOPMENT_TEAM = VP6733N44J;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConciertosChile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dromero.ConciertosChile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE4357D52B5DFF6800A7832C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1427B7B218B1EFF5497A2FA8 /* Pods-ConciertosChile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "ConciertosChile/Core/Preview\\ Content";
+				DEVELOPMENT_TEAM = VP6733N44J;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConciertosChile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dromero.ConciertosChile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE4357D72B5DFF6800A7832C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE54F047F6487EDB6B7649A2 /* Pods-ConciertosChileTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dromero.ConciertosChileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConciertosChile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ConciertosChile";
+			};
+			name = Debug;
+		};
+		FE4357D82B5DFF6800A7832C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258C21D64F175626F74B4CE8 /* Pods-ConciertosChileTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dromero.ConciertosChileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConciertosChile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ConciertosChile";
+			};
+			name = Release;
+		};
+		FE4357DA2B5DFF6800A7832C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC48A345FDB157D9C22815FE /* Pods-ConciertosChile-ConciertosChileUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dromero.ConciertosChileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConciertosChile;
+			};
+			name = Debug;
+		};
+		FE4357DB2B5DFF6800A7832C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCA90A3AD9F1A9786C5B4CF /* Pods-ConciertosChile-ConciertosChileUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dromero.ConciertosChileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConciertosChile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE4357AA2B5DFF6600A7832C /* Build configuration list for PBXProject "ConciertosChile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4357D12B5DFF6800A7832C /* Debug */,
+				FE4357D22B5DFF6800A7832C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE4357D32B5DFF6800A7832C /* Build configuration list for PBXNativeTarget "ConciertosChile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4357D42B5DFF6800A7832C /* Debug */,
+				FE4357D52B5DFF6800A7832C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE4357D62B5DFF6800A7832C /* Build configuration list for PBXNativeTarget "ConciertosChileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4357D72B5DFF6800A7832C /* Debug */,
+				FE4357D82B5DFF6800A7832C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE4357D92B5DFF6800A7832C /* Build configuration list for PBXNativeTarget "ConciertosChileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4357DA2B5DFF6800A7832C /* Debug */,
+				FE4357DB2B5DFF6800A7832C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE4357A72B5DFF6600A7832C /* Project object */;
+}

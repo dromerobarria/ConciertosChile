@@ -1,0 +1,6 @@
+framework module Pods_ConciertosChile_ConciertosChileUITests {
+  umbrella header "Pods-ConciertosChile-ConciertosChileUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
